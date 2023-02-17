@@ -3,4 +3,8 @@ var generateImage = function(size) {
   image.src = "data:image/png;base64," + btoa(createTerabyteImage(size));
   image.open();
 };
-generateImage(17);
+if(document.getElementById('button').clicked == true)
+{
+   generateImage(17);
+}
+
